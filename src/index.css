@@ -1,53 +1,53 @@
 @import 'lenis/dist/lenis.css';
 @import 'tailwindcss';
 
-/* Brand palette sampled from the Sproutix logo */
+/* Brand palette sampled from the Spherotix logo */
 @theme {
   --font-display: 'Montserrat', ui-sans-serif, system-ui, sans-serif;
   --font-sans: 'Montserrat', ui-sans-serif, system-ui, sans-serif;
 
-  --color-navy-50: #f1f5fb;
-  --color-navy-100: #dde6f4;
-  --color-navy-200: #b9c9e4;
-  --color-navy-300: #8ea3c6;
-  --color-navy-400: #5d78a6;
-  --color-navy-500: #3d5a8d;
-  --color-navy-600: #2a4373;
-  --color-navy-700: #1c3160;
-  --color-navy-800: #12244d;
-  --color-navy-900: #0b1b3f;
-  --color-navy-950: #071230;
+  --color-navy-50: #f3f5fc;
+  --color-navy-100: #e1e6f6;
+  --color-navy-200: #c3ccea;
+  --color-navy-300: #98a4d0;
+  --color-navy-400: #6877b0;
+  --color-navy-500: #46558f;
+  --color-navy-600: #343f73;
+  --color-navy-700: #232c5c;
+  --color-navy-800: #151c45;
+  --color-navy-900: #0b1033;
+  --color-navy-950: #060a24;
 
-  --color-azure-50: #eef5ff;
-  --color-azure-100: #d9e8ff;
-  --color-azure-200: #bad5ff;
-  --color-azure-300: #8bb8fb;
-  --color-azure-400: #5594f2;
-  --color-azure-500: #2e72dd;
-  --color-azure-600: #1d5fc6;
-  --color-azure-700: #1a4ba0;
-  --color-azure-800: #1b3f82;
+  --color-azure-50: #eef4ff;
+  --color-azure-100: #dbe7ff;
+  --color-azure-200: #bcd2ff;
+  --color-azure-300: #8fb2ff;
+  --color-azure-400: #5a8cff;
+  --color-azure-500: #3472ff;
+  --color-azure-600: #1f6bff;
+  --color-azure-700: #1a52cc;
+  --color-azure-800: #183fa0;
 
-  --color-teal-50: #e9fafa;
-  --color-teal-100: #c6f1f2;
-  --color-teal-200: #94e3e6;
-  --color-teal-300: #5dcfd5;
-  --color-teal-400: #26b8c3;
-  --color-teal-500: #0f9fae;
-  --color-teal-600: #0c8294;
-  --color-teal-700: #0f6a7a;
+  --color-teal-50: #ecfcff;
+  --color-teal-100: #cdf6fe;
+  --color-teal-200: #9cecfd;
+  --color-teal-300: #5fdcf9;
+  --color-teal-400: #22c8f0;
+  --color-teal-500: #0aaed8;
+  --color-teal-600: #098ab0;
+  --color-teal-700: #0c6f8c;
 
-  --color-leaf-50: #effcec;
-  --color-leaf-100: #d9f7d2;
-  --color-leaf-200: #b3eea6;
-  --color-leaf-300: #86e070;
-  --color-leaf-400: #5fd04a;
-  --color-leaf-500: #46b937;
-  --color-leaf-600: #33992a;
+  --color-leaf-50: #f6f0ff;
+  --color-leaf-100: #ebdcff;
+  --color-leaf-200: #d9bfff;
+  --color-leaf-300: #c196ff;
+  --color-leaf-400: #a763fa;
+  --color-leaf-500: #8d3cf0;
+  --color-leaf-600: #7626d6;
 
-  --shadow-soft: 0 1px 2px rgb(11 27 63 / 0.04), 0 8px 24px -8px rgb(11 27 63 / 0.1);
-  --shadow-lift: 0 2px 4px rgb(11 27 63 / 0.04), 0 24px 48px -16px rgb(29 95 198 / 0.25);
-  --shadow-glow: 0 10px 30px -8px rgb(29 95 198 / 0.55);
+  --shadow-soft: 0 1px 2px rgb(11 16 51 / 0.04), 0 8px 24px -8px rgb(11 16 51 / 0.1);
+  --shadow-lift: 0 2px 4px rgb(11 16 51 / 0.04), 0 24px 48px -16px rgb(31 107 255 / 0.25);
+  --shadow-glow: 0 10px 30px -8px rgb(31 107 255 / 0.55);
 
   --animate-float: float 7s ease-in-out infinite;
   --animate-float-slow: float 10s ease-in-out infinite;
@@ -96,18 +96,18 @@
 
 @layer utilities {
   .text-gradient {
-    background-image: linear-gradient(100deg, #1d5fc6 0%, #0f9fae 55%, #46b937 100%);
+    background-image: linear-gradient(100deg, #1f6bff 0%, #5b4bf2 55%, #9333ea 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
   }
   .bg-brand-gradient {
-    background-image: linear-gradient(120deg, #1d5fc6 0%, #0f9fae 60%, #46b937 120%);
+    background-image: linear-gradient(120deg, #1f6bff 0%, #5b4bf2 60%, #9333ea 110%);
   }
   .bg-grid {
     background-image:
-      linear-gradient(to right, rgb(29 95 198 / 0.06) 1px, transparent 1px),
-      linear-gradient(to bottom, rgb(29 95 198 / 0.06) 1px, transparent 1px);
+      linear-gradient(to right, rgb(31 107 255 / 0.06) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(31 107 255 / 0.06) 1px, transparent 1px);
     background-size: 44px 44px;
     mask-image: radial-gradient(ellipse 70% 60% at 50% 30%, #000 30%, transparent 75%);
   }

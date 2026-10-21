@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.sproutix.com/sitemap.xml
+Sitemap: https://www.spherotix.com/sitemap.xml

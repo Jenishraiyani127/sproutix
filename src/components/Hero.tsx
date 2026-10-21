@@ -6,7 +6,7 @@ import { avatar, photos, unsplash } from '../lib/img'
 import { ease } from '../lib/motion'
 import { Button } from './ui'
 
-const GRADIENT = 'linear-gradient(100deg, #1d5fc6 0%, #0f9fae 55%, #46b937 100%)'
+const GRADIENT = 'linear-gradient(100deg, #1f6bff 0%, #5b4bf2 55%, #9333ea 100%)'
 const pillClass =
   'hidden shrink-0 overflow-hidden rounded-full shadow-lift ring-[0.08em] ring-white sm:inline-block'
 
@@ -127,9 +127,9 @@ function Sparkline({ id }: { id: string }) {
     <svg viewBox="0 0 120 40" className="h-9 w-24" fill="none" aria-hidden="true">
       <defs>
         <linearGradient id="spark" x1="0" x2="1">
-          <stop stopColor="#1d5fc6" />
-          <stop offset=".6" stopColor="#0f9fae" />
-          <stop offset="1" stopColor="#46b937" />
+          <stop stopColor="#1f6bff" />
+          <stop offset=".6" stopColor="#5b4bf2" />
+          <stop offset="1" stopColor="#9333ea" />
         </linearGradient>
       </defs>
       <motion.path
@@ -171,7 +171,7 @@ function Banner({ active, index }: { active: HeroService; index: number }) {
               <motion.img
                 key={s.key}
                 src={unsplash(s.image, 1800, 900)}
-                alt={`${s.chip} by Sproutix`}
+                alt={`${s.chip} by Spherotix`}
                 aria-hidden={i !== index}
                 className="absolute inset-0 h-full w-full object-cover"
                 animate={{ opacity: i === index ? 1 : 0, scale: i === index ? 1 : 1.08 }}
@@ -260,7 +260,7 @@ function ServiceTabs({
       </p>
       <div
         role="tablist"
-        aria-label="Sproutix services"
+        aria-label="Spherotix services"
         onMouseEnter={() => onPause(true)}
         onMouseLeave={() => onPause(false)}
         className="mx-auto mt-3 flex max-w-3xl flex-wrap justify-center gap-2"
@@ -382,13 +382,13 @@ export function Hero() {
         </motion.div>
 
         <h1
-          aria-label={`Ideas that sprout into ${active.word}`}
+          aria-label={`Ideas that scale into ${active.word}`}
           className="mx-auto mt-7 flex max-w-[80rem] flex-col items-center gap-y-[0.12em] text-[2.35rem] leading-[1.12] font-bold tracking-[-0.035em] sm:text-5xl md:text-6xl lg:text-[3.9rem] xl:text-[4.7rem]"
         >
           <Line>
             <Words text="Ideas that" delay={0.1} />
             <Pill id={photos.laughing} delay={0.5} tilt={-4} />
-            <Words text="Sprout" delay={0.35} tone="gradient" />
+            <Words text="Scale" delay={0.35} tone="gradient" />
           </Line>
           <Line>
             <Words text="into" delay={0.6} tone="muted" />
@@ -403,7 +403,7 @@ export function Hero() {
           transition={{ duration: 0.9, delay: 1.1, ease }}
           className="mx-auto mt-7 max-w-2xl text-base leading-relaxed text-navy-500 sm:text-lg"
         >
-          Sproutix Infotech is a full-service digital agency — web &amp; app development, CMS, graphic design, UI/UX
+          Spherotix is a full-service digital agency — web &amp; app development, CMS, graphic design, UI/UX
           and marketing — taking your idea from the first sketch to real growth.
         </motion.p>
 

@@ -25,7 +25,7 @@ export const values: Array<{ icon: IconType; title: string; text: string }> = [
 ]
 
 export const milestones = [
-  { year: '2020', title: 'Sproutix is planted', text: 'Founded by a small team of designers and engineers with a simple idea: digital work should feel effortless.' },
+  { year: '2020', title: 'Spherotix launches', text: 'Founded by a small team of designers and engineers with a simple idea: digital work should feel effortless.' },
   { year: '2021', title: 'First 25 projects', text: 'Expanded from websites into brand identity and UI/UX design for start-ups and local businesses.' },
   { year: '2023', title: 'Apps & CMS launched', text: 'Added mobile app development and headless CMS expertise to serve larger products.' },
   { year: '2024', title: 'Marketing studio opens', text: 'Introduced SEO, performance marketing and analytics, completing our end-to-end offering.' },

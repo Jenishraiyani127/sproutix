@@ -63,7 +63,7 @@ export const projects: Project[] = [
     ],
     gallery: [photos.codeLaptop, photos.analytics, photos.dashboard],
     testimonial: {
-      quote: 'Sproutix rebuilt our entire marketplace and our checkout conversion jumped within the first month. They felt like part of our team.',
+      quote: 'Spherotix rebuilt our entire marketplace and our checkout conversion jumped within the first month. They felt like part of our team.',
       name: 'Meera Joshi',
       role: 'Co-founder, Fresh Cart',
       avatar: photos.p2,
@@ -141,7 +141,7 @@ export const projects: Project[] = [
     ],
     gallery: [photos.webLaptop, photos.dashboard, photos.codeLaptop],
     testimonial: {
-      quote: 'Our marketing team now launches pages in an afternoon. The structure Sproutix created saved us weeks every month.',
+      quote: 'Our marketing team now launches pages in an afternoon. The structure Spherotix created saved us weeks every month.',
       name: 'Priya Sharma',
       role: 'Head of Marketing, Nexora',
       avatar: photos.p4,
@@ -219,7 +219,7 @@ export const projects: Project[] = [
     ],
     gallery: [photos.palette, photos.dashboard, photos.analytics],
     testimonial: {
-      quote: 'Sproutix listened to our learners first, then designed. The results spoke for themselves within weeks of launch.',
+      quote: 'Spherotix listened to our learners first, then designed. The results spoke for themselves within weeks of launch.',
       name: 'Dr. Kavita Rao',
       role: 'Director, EduPath Academy',
       avatar: photos.p5,

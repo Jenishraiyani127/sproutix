@@ -46,7 +46,7 @@ export default function ServiceDetail() {
             '@type': 'Service',
             name: s.title,
             description: s.tagline,
-            provider: { '@type': 'Organization', name: 'Sproutix Infotech', url: 'https://www.sproutix.com' },
+            provider: { '@type': 'Organization', name: 'Spherotix', url: 'https://www.spherotix.com' },
             areaServed: 'Worldwide',
           },
           {
@@ -143,7 +143,7 @@ export default function ServiceDetail() {
             <div className="overflow-hidden rounded-[2rem] border-8 border-white shadow-lift ring-1 ring-navy-100">
               <img
                 src={unsplash(s.image, 1000, 760)}
-                alt={`${s.title} at Sproutix`}
+                alt={`${s.title} at Spherotix`}
                 loading="lazy"
                 className="aspect-[4/3] w-full object-cover"
               />

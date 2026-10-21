@@ -31,7 +31,7 @@ export function Footer() {
           <div>
             <Logo />
             <p className="mt-5 max-w-xs text-sm leading-relaxed text-navy-500">
-              Web &amp; app development, CMS, graphic design, UI/UX and marketing — ideas that sprout into real digital
+              Web &amp; app development, CMS, graphic design, UI/UX and marketing — technology without limits, built for real digital
               growth.
             </p>
             <div className="mt-6 flex gap-2.5">

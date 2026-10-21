@@ -21,7 +21,7 @@ export default function ServicesPage() {
     <>
       <Seo
         title="Services — Web, App, CMS, Design, UI/UX & Marketing"
-        description="Explore Sproutix services: web development, mobile apps, CMS, graphic design, UI/UX design and digital marketing — everything you need to build and grow online."
+        description="Explore Spherotix services: web development, mobile apps, CMS, graphic design, UI/UX design and digital marketing — everything you need to build and grow online."
         path={routes.services}
         breadcrumbs={crumbs}
         jsonLd={[
@@ -32,7 +32,7 @@ export default function ServicesPage() {
               '@type': 'ListItem',
               position: i + 1,
               name: s.title,
-              url: `https://www.sproutix.com${routes.service(s.slug)}`,
+              url: `https://www.spherotix.com${routes.service(s.slug)}`,
             })),
           },
         ]}

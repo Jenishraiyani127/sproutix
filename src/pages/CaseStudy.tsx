@@ -45,7 +45,7 @@ export default function CaseStudy() {
             '@type': 'CreativeWork',
             name: p.title,
             description: p.summary,
-            creator: { '@type': 'Organization', name: 'Sproutix Infotech' },
+            creator: { '@type': 'Organization', name: 'Spherotix' },
             dateCreated: p.year,
           },
         ]}

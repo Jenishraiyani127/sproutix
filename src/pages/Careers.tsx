@@ -103,8 +103,8 @@ export default function Careers() {
   return (
     <>
       <Seo
-        title="Careers — Join the Sproutix Team"
-        description="Join Sproutix Infotech. We're hiring developers, designers and marketers who care about craft, honesty and helping clients grow."
+        title="Careers — Join the Spherotix Team"
+        description="Join Spherotix. We're hiring developers, designers and marketers who care about craft, honesty and helping clients grow."
         path={routes.careers}
         breadcrumbs={crumbs}
         jsonLd={openings.map((o) => ({
@@ -113,7 +113,7 @@ export default function Careers() {
           title: o.title,
           description: o.summary,
           employmentType: o.type.includes('Intern') ? 'INTERN' : 'FULL_TIME',
-          hiringOrganization: { '@type': 'Organization', name: 'Sproutix Infotech', sameAs: 'https://www.sproutix.com' },
+          hiringOrganization: { '@type': 'Organization', name: 'Spherotix', sameAs: 'https://www.spherotix.com' },
           jobLocationType: o.location.includes('Remote') ? 'TELECOMMUTE' : undefined,
         }))}
       />
@@ -136,12 +136,12 @@ export default function Careers() {
           </>
         }
         image={photos.laughing}
-        imageAlt="Sproutix team members laughing together"
+        imageAlt="Spherotix team members laughing together"
       />
 
       <Section>
         <SectionHeading
-          eyebrow="Why Sproutix"
+          eyebrow="Why Spherotix"
           title={
             <>
               Perks that make <span className="text-gradient">work better</span>

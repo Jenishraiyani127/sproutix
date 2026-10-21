@@ -21,19 +21,19 @@ export default function AboutPage() {
     <>
       <Seo
         title="About Us"
-        description="Meet Sproutix Infotech — a team of designers, engineers and marketers helping ambitious brands grow with websites, apps, CMS, design and marketing."
+        description="Meet Spherotix — a team of designers, engineers and marketers helping ambitious brands grow with websites, apps, CMS, design and marketing."
         path={routes.about}
         breadcrumbs={crumbs}
       />
 
       <PageHero
-        eyebrow="About Sproutix"
+        eyebrow="About Spherotix"
         title={
           <>
-            We help ideas <span className="text-gradient">sprout</span> into digital products
+            Technology that knows <span className="text-gradient">no limits</span>
           </>
         }
-        description="Sproutix Infotech is a full-service digital agency of designers, engineers and marketers. We build websites, apps and brands that look exceptional, perform brilliantly and keep growing."
+        description="Spherotix is a full-service digital agency of designers, engineers and marketers. We build websites, apps and brands that look exceptional, perform brilliantly and keep growing."
         breadcrumbs={crumbs}
         actions={
           <>
@@ -44,7 +44,7 @@ export default function AboutPage() {
           </>
         }
         image={photos.meeting}
-        imageAlt="The Sproutix team planning a project around a whiteboard"
+        imageAlt="The Spherotix team planning a project around a whiteboard"
       />
 
       {/* story */}
@@ -55,7 +55,7 @@ export default function AboutPage() {
             <div className="relative grid grid-cols-5 gap-4">
               <img
                 src={unsplash(photos.laughing, 700, 900)}
-                alt="Sproutix team members collaborating"
+                alt="Spherotix team members collaborating"
                 loading="lazy"
                 className="col-span-3 h-72 w-full rounded-3xl object-cover shadow-lift sm:h-96"
               />
@@ -90,7 +90,7 @@ export default function AboutPage() {
             />
             <Reveal delay={0.1} className="mt-5 space-y-4 text-base leading-relaxed text-navy-500">
               <p>
-                Sproutix started in 2020 with a simple belief: great digital work should feel effortless for the people
+                Spherotix started in 2020 with a simple belief: great digital work should feel effortless for the people
                 who commission it. No jargon, no missed deadlines, no handing your project between five different
                 vendors.
               </p>
@@ -176,7 +176,7 @@ export default function AboutPage() {
           eyebrow="Our journey"
           title={
             <>
-              From a small seed to a <span className="text-gradient">growing studio</span>
+              From a small team to a <span className="text-gradient">global studio</span>
             </>
           }
         />

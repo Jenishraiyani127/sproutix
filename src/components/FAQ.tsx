@@ -29,7 +29,7 @@ export function FAQ({ items = faqs }: FAQProps) {
           >
             <motion.img
               src={unsplash(photos.teamLaptop, 1000, 1250)}
-              alt="Two Sproutix team members discussing a project on a laptop"
+              alt="Two Spherotix team members discussing a project on a laptop"
               loading="lazy"
               style={{ scale, y }}
               className="absolute inset-0 h-full w-full object-cover"

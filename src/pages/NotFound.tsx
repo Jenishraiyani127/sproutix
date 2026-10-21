@@ -29,7 +29,7 @@ export default function NotFound({ message = "The page you're looking for has mo
             <LogoMark className="h-28" />
           </motion.div>
           <p className="mt-6 font-display text-7xl font-extrabold text-gradient sm:text-8xl">404</p>
-          <h1 className="mt-4 text-3xl font-bold sm:text-4xl">Oops — this page didn't sprout</h1>
+          <h1 className="mt-4 text-3xl font-bold sm:text-4xl">Oops — this page drifted out of orbit</h1>
           <p className="mt-4 text-base leading-relaxed text-navy-500">{message}</p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
             <Button href={routes.home}>Back to home</Button>

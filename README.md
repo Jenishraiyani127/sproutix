@@ -1,6 +1,6 @@
-# Sproutix Infotech — Company Website
+# Spherotix — Company Website
 
-Premium light-themed marketing site for **Sproutix Infotech** — web & app development, CMS, graphic design, UI/UX and digital marketing.
+Premium light-themed marketing site for **Spherotix** — web & app development, CMS, graphic design, UI/UX and digital marketing.
 
 **Stack:** React 19 · TypeScript · Vite · Tailwind CSS v4 · React Router 7 · Framer Motion · React Icons · Lenis (smooth scroll)
 **Font:** Montserrat · **Images:** Unsplash (IDs in `src/lib/img.ts` — swap for real photography)

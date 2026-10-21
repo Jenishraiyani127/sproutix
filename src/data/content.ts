@@ -17,7 +17,7 @@ import {
   LuShoppingBag,
   LuSmartphone,
   LuSparkles,
-  LuSprout,
+  LuRocket,
   LuTruck,
 } from 'react-icons/lu'
 import { photos } from '../lib/img'
@@ -26,8 +26,8 @@ import { photos } from '../lib/img'
    Replace them with real company information before going live. */
 
 export const company = {
-  name: 'Sproutix Infotech',
-  email: 'hello@sproutix.com',
+  name: 'Spherotix',
+  email: 'hello@spherotix.com',
   phone: '+91 00000 00000',
   address: 'India · Serving clients worldwide',
   hours: 'Mon – Sat, 10:00 – 19:00 IST',
@@ -44,7 +44,7 @@ export const clients: Array<{ name: string; icon: IconType }> = [
   { name: 'Voyago', icon: LuPlane },
 ]
 
-/** Interactive hero: "Ideas that sprout into {word}" — one entry per core service. */
+/** Interactive hero: "Ideas that scale into {word}" — one entry per core service. */
 export interface HeroService {
   key: string
   chip: string
@@ -144,13 +144,13 @@ export const processSteps = [
   { icon: LuSearch, title: 'Discover', text: 'We learn your business, audience and goals, then audit what already exists.' },
   { icon: LuPenTool, title: 'Design', text: 'Strategy, wireframes and a polished visual identity you approve before we build.' },
   { icon: LuCode, title: 'Develop', text: 'Clean, tested, production-ready code shipped in clear milestones you can follow.' },
-  { icon: LuSprout, title: 'Grow', text: 'Launch, measure and optimise — we keep improving performance and conversions.' },
+  { icon: LuRocket, title: 'Grow', text: 'Launch, measure and optimise — we keep improving performance and conversions.' },
 ]
 
 export const testimonials = [
   {
     quote:
-      'Sproutix rebuilt our website and our enquiries doubled within a quarter. They felt like an extension of our own team.',
+      'Spherotix rebuilt our website and our enquiries doubled within a quarter. They felt like an extension of our own team.',
     name: 'Ananya Mehta',
     role: 'Founder, Aurum Interiors',
     avatar: photos.p2,
@@ -173,7 +173,7 @@ export const testimonials = [
 
 export const faqs = [
   {
-    q: 'What services does Sproutix offer?',
+    q: 'What services does Spherotix offer?',
     a: 'We cover web development, mobile app development, CMS builds, graphic design, UI/UX design and digital marketing — so one team can take you from idea to launch and growth.',
   },
   {

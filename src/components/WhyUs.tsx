@@ -8,7 +8,7 @@ const sentence =
   'We are a full-service digital agency that designs, builds and grows websites, mobile apps, CMS platforms and brands for startups and ambitious businesses.'
 
 function Word({ word, progress, range }: { word: string; progress: MotionValue<number>; range: [number, number] }) {
-  const color = useTransform(progress, range, ['#9fb0cc', '#0b1b3f'])
+  const color = useTransform(progress, range, ['#9fb0cc', '#0b1033'])
   return <motion.span style={{ color }}>{word}</motion.span>
 }
 
@@ -38,7 +38,7 @@ export function WhyUs() {
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <Reveal className="mb-8">
           <h2 className="text-3xl font-black uppercase sm:text-4xl md:text-5xl">
-            Why <span className="text-gradient">Choose Sproutix?</span>
+            Why <span className="text-gradient">Choose Spherotix?</span>
           </h2>
           <ScrollSentence />
         </Reveal>

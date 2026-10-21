@@ -17,10 +17,10 @@ export interface LegalDoc {
 
 export const privacyPolicy: LegalDoc = {
   title: 'Privacy Policy',
-  description: 'How Sproutix Infotech collects, uses and protects your personal information.',
+  description: 'How Spherotix collects, uses and protects your personal information.',
   updated: '2026-10-01',
   intro:
-    'Your privacy matters to us. This policy explains what information Sproutix Infotech collects when you use our website and services, how we use it and the choices you have.',
+    'Your privacy matters to us. This policy explains what information Spherotix collects when you use our website and services, how we use it and the choices you have.',
   sections: [
     {
       id: 'information-we-collect',
@@ -89,23 +89,23 @@ export const privacyPolicy: LegalDoc = {
     {
       id: 'contact',
       title: 'Contact us',
-      paragraphs: ['If you have questions about this policy or wish to exercise your rights, please contact us at hello@sproutix.com.'],
+      paragraphs: ['If you have questions about this policy or wish to exercise your rights, please contact us at hello@spherotix.com.'],
     },
   ],
 }
 
 export const termsOfService: LegalDoc = {
   title: 'Terms of Service',
-  description: 'The terms that apply when you use the Sproutix Infotech website and engage our services.',
+  description: 'The terms that apply when you use the Spherotix website and engage our services.',
   updated: '2026-10-01',
   intro:
-    'These terms govern your use of the Sproutix Infotech website and the services we provide. By using our website or engaging us, you agree to these terms.',
+    'These terms govern your use of the Spherotix website and the services we provide. By using our website or engaging us, you agree to these terms.',
   sections: [
     {
       id: 'services',
       title: 'Our services',
       paragraphs: [
-        'Sproutix Infotech provides web and mobile app development, CMS development, graphic design, UI/UX design and digital marketing services. The specific scope, deliverables, timeline and fees for each project are set out in a written proposal or agreement.',
+        'Spherotix provides web and mobile app development, CMS development, graphic design, UI/UX design and digital marketing services. The specific scope, deliverables, timeline and fees for each project are set out in a written proposal or agreement.',
       ],
     },
     {
@@ -164,7 +164,7 @@ export const termsOfService: LegalDoc = {
     {
       id: 'contact',
       title: 'Contact',
-      paragraphs: ['Questions about these terms? Email hello@sproutix.com.'],
+      paragraphs: ['Questions about these terms? Email hello@spherotix.com.'],
     },
   ],
 }

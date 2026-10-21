@@ -121,7 +121,7 @@ export default function BlogPost() {
             image: unsplash(p.cover, 1200, 630),
             datePublished: p.date,
             author: { '@type': 'Person', name: p.author.name },
-            publisher: { '@type': 'Organization', name: 'Sproutix Infotech' },
+            publisher: { '@type': 'Organization', name: 'Spherotix' },
             mainEntityOfPage: url,
           },
         ]}

@@ -20,7 +20,7 @@ export default function Blog() {
     <>
       <Seo
         title="Blog — Insights on Web, Design, Apps & Marketing"
-        description="Practical articles from the Sproutix team on web development, app development, design, SEO and growing a business online."
+        description="Practical articles from the Spherotix team on web development, app development, design, SEO and growing a business online."
         path={routes.blog}
         breadcrumbs={crumbs}
       />

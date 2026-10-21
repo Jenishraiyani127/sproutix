@@ -16,7 +16,7 @@ export default function Portfolio() {
     <>
       <Seo
         title="Portfolio & Case Studies"
-        description="Explore Sproutix case studies — websites, mobile apps, CMS platforms, brand identities, UI/UX redesigns and marketing campaigns that delivered measurable results."
+        description="Explore Spherotix case studies — websites, mobile apps, CMS platforms, brand identities, UI/UX redesigns and marketing campaigns that delivered measurable results."
         path={routes.portfolio}
         breadcrumbs={crumbs}
       />

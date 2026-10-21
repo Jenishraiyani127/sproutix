@@ -42,15 +42,15 @@ export default function ContactPage() {
     <>
       <Seo
         title="Contact Us — Start Your Project"
-        description="Get in touch with Sproutix Infotech. Tell us about your website, app, design or marketing project and receive a free consultation and quote within one business day."
+        description="Get in touch with Spherotix. Tell us about your website, app, design or marketing project and receive a free consultation and quote within one business day."
         path={routes.contact}
         breadcrumbs={crumbs}
         jsonLd={[
           {
             '@context': 'https://schema.org',
             '@type': 'ContactPage',
-            name: 'Contact Sproutix Infotech',
-            mainEntity: { '@type': 'Organization', name: 'Sproutix Infotech', email: company.email, telephone: company.phone },
+            name: 'Contact Spherotix',
+            mainEntity: { '@type': 'Organization', name: 'Spherotix', email: company.email, telephone: company.phone },
           },
         ]}
       />
@@ -130,7 +130,7 @@ export default function ContactPage() {
                 </span>
               </div>
               <div className="p-5">
-                <p className="font-bold">Sproutix Infotech</p>
+                <p className="font-bold">Spherotix</p>
                 <p className="mt-1 text-sm text-navy-500">{company.address}</p>
                 <p className="mt-1 text-sm text-navy-500">{company.hours}</p>
               </div>

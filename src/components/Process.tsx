@@ -10,13 +10,13 @@ interface ProcessProps {
   steps?: Array<{ title: string; text: string; icon?: IconType }>
 }
 
-/** Numbered process timeline. Defaults to Sproutix's four-step approach. */
+/** Numbered process timeline. Defaults to Spherotix's four-step approach. */
 export function Process({
   id = 'process',
   eyebrow = 'Our process',
   title = (
     <>
-      From seed to <span className="text-gradient">full bloom</span> in four steps
+      From first idea to <span className="text-gradient">full launch</span> in four steps
     </>
   ),
   description = 'A simple, transparent workflow that keeps you in the loop and projects on schedule.',

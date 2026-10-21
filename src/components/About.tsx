@@ -120,7 +120,7 @@ function PagePreview() {
             cy="22"
             r="18"
             fill="none"
-            stroke="#46b937"
+            stroke="#9333ea"
             strokeWidth="4"
             strokeLinecap="round"
             initial={{ pathLength: 0 }}
@@ -140,8 +140,8 @@ function Sparkline() {
     <svg viewBox="0 0 110 34" className="h-9 w-16 shrink-0" fill="none" aria-hidden="true">
       <defs>
         <linearGradient id="about-spark" x1="0" x2="1">
-          <stop stopColor="#1d5fc6" />
-          <stop offset="1" stopColor="#46b937" />
+          <stop stopColor="#1f6bff" />
+          <stop offset="1" stopColor="#9333ea" />
         </linearGradient>
       </defs>
       <motion.path
@@ -180,7 +180,7 @@ export function About() {
             </h2>
           </Reveal>
           <Reveal delay={0.1} className="max-w-md text-base leading-relaxed text-navy-500 lg:text-right">
-            With deep expertise and genuine dedication, Sproutix has helped brands launch, rank and scale — from the first pixel to the first page-one result.
+            With deep expertise and genuine dedication, Spherotix has helped brands launch, rank and scale — from the first pixel to the first page-one result.
           </Reveal>
         </div>
 
@@ -228,7 +228,7 @@ export function About() {
 
           <Photo
             id={photos.meeting}
-            alt="Sproutix team planning a project with sticky notes on a whiteboard"
+            alt="Spherotix team planning a project with sticky notes on a whiteboard"
             label="Strategy workshops"
             delay={0.15}
             className="min-h-[18rem] sm:col-span-2 lg:col-span-12"

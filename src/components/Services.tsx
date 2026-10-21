@@ -21,7 +21,7 @@ export function Services() {
         <div className="mt-10 flex flex-col justify-between gap-5 lg:flex-row lg:items-end">
           <Reveal>
             <h2 className="text-3xl leading-tight font-bold text-balance sm:text-4xl lg:text-[2.6rem]">
-              What can you <span className="text-gradient">build</span> with Sproutix?
+              What can you <span className="text-gradient">build</span> with Spherotix?
             </h2>
           </Reveal>
           <Reveal delay={0.1} className="max-w-md text-base leading-relaxed text-navy-600">
