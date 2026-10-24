@@ -1,7 +1,7 @@
 import type { IconType } from 'react-icons'
-import { LuBuilding2, LuCalculator, LuHouse, LuStethoscope, LuUtensils } from 'react-icons/lu'
+import { LuBriefcase, LuBuilding2, LuCalculator, LuHouse, LuStethoscope, LuUtensils } from 'react-icons/lu'
 
-export type WorkCategory = 'Web' | 'App' | 'Web & App' | 'CMS' | 'Design' | 'UI/UX' | 'Marketing'
+export type WorkCategory = 'Web' | 'App' | 'Web & App' | 'ERP' | 'CMS' | 'Design' | 'UI/UX' | 'Marketing'
 
 export interface Project {
   slug: string
@@ -416,6 +416,74 @@ export const projects: Project[] = [
       description:
         'Case study: a real estate platform with property listings for sale and rent, owner submissions, project management, inquiry handling, a Flutter app, React admin panel and AI chat-based property search.',
       keywords: ['real estate portal development', 'property listing website', 'Flutter real estate app', 'AI property search chatbot', 'React TypeScript admin panel', 'real estate software', 'Spherotix case study'],
+    },
+  },
+  {
+    slug: 'odoo-erp-platform',
+    title: 'Odoo ERP Business Platform',
+    industry: 'Retail, Rental & Tailoring',
+    category: 'ERP',
+    platform: 'Odoo ERP · Web-based business management',
+    summary:
+      'An integrated Odoo ERP that brings rental management, POS, inventory, tailoring, expenses and purchase orders into one connected business platform.',
+    result: 'Rental · POS · Tailoring · Expenses · Purchasing',
+    tags: ['Odoo', 'ERP', 'POS'],
+    services: ['web-development'],
+    tech: ['Odoo ERP', 'Python', 'PostgreSQL', 'XML views', 'HTML', 'CSS', 'JavaScript', 'OWL'],
+    icon: LuBriefcase,
+    accent: ['#a12fd0', '#4a2bf0'],
+    overview: [
+      'The Odoo ERP project is an integrated business management solution that centralises daily operations in one platform — sales, rental management, point-of-sale transactions, tailoring workflows, expense tracking, purchase orders and related ERP functions.',
+      'The goal was to simplify business processes, reduce manual work, improve operational visibility and let businesses manage their activities from a single interface.',
+    ],
+    facts: [
+      { label: 'Project objective', value: 'A centralised business platform that connects operational workflows and makes day-to-day management more efficient.' },
+      { label: 'Core modules', value: 'Rental management, POS, ERP & inventory, tailor management, expense management and purchase orders.' },
+      { label: 'Target users', value: 'Retailers, rental businesses, tailoring shops, purchasing and finance teams, and business administrators.' },
+    ],
+    challenges: [
+      'Disconnected workflows: sales, purchasing, inventory and expenses handled in separate tools.',
+      'Manual record keeping that consumes employee time.',
+      'Poor inventory visibility across product availability, rental stock and stock movements.',
+      'Rental coordination: rental periods, return dates, availability and customer details.',
+      'Tailoring complexity: measurements, garment orders, fitting schedules and delivery status.',
+      'Time-consuming expense tracking and review.',
+      'Purchase management: supplier orders, receipts and order status.',
+    ],
+    solution: [
+      { title: 'One centralised ERP', text: 'A shared Odoo environment holds the business’s operational records so every team works from the same data.' },
+      { title: 'Connected workflows', text: 'Sales and POS, inventory and rental, tailoring, purchasing and expenses sit in one system instead of operating in isolation.' },
+      { title: 'Status tracking & reporting', text: 'Orders, rentals, expenses and purchases carry clear statuses, with reports for operational visibility and control.' },
+      { title: 'Tailored to the business', text: 'Odoo modules were configured and extended with custom development to match how each workflow actually runs.' },
+    ],
+    modules: [
+      { title: 'Rental management', items: ['Rental order creation & tracking', 'Rental start and return dates', 'Product availability management', 'Customer & rental history'] },
+      { title: 'Point of Sale (POS)', items: ['Product selection & cart', 'Customer selection', 'Taxes and discounts where configured', 'Receipts, payments & sales reports'] },
+      { title: 'ERP & inventory', items: ['Product & service records', 'Customer & supplier information', 'Stock movement tracking', 'Dashboards & operational reports'] },
+      { title: 'Tailor management', items: ['Customer profiles & measurements', 'Garment & stitching orders', 'Fabric and design details', 'Fitting & delivery scheduling'] },
+      { title: 'Expense management', items: ['Expense entry & categorisation', 'Receipt attachments', 'Submission & approval where configured', 'Summaries & reporting'] },
+      { title: 'Purchase orders', items: ['Purchase order creation', 'Supplier & product selection', 'Quantity & pricing management', 'Order status & receipt tracking'] },
+    ],
+    journey: {
+      title: 'How the platform connects',
+      steps: [
+        { title: 'Centralised Odoo ERP', text: 'Shared business environment and operational records for every team.' },
+        { title: 'Sales, POS & rental', text: 'Customer sales, checkout transactions and rental orders recorded in one place.' },
+        { title: 'Tailoring & inventory', text: 'Garment orders and stock movements tracked alongside sales.' },
+        { title: 'Purchasing & expenses', text: 'Supplier orders and spending recorded to replenish stock and control costs.' },
+      ],
+    },
+    outcomes: [
+      'Multiple business workflows managed within one ERP environment.',
+      'Less manual record keeping and fewer disconnected tools.',
+      'Clearer visibility into stock, rentals, orders, expenses and purchases.',
+      'Better coordination across departments through shared records and reports.',
+    ],
+    seo: {
+      title: 'Odoo ERP Development — Rental, POS, Tailor, Expense & Purchase Management',
+      description:
+        'Case study: an integrated Odoo ERP platform combining rental management, POS, inventory, tailor management, expense tracking and purchase orders. Built with Odoo, Python and PostgreSQL.',
+      keywords: ['Odoo ERP development', 'Odoo customisation', 'rental management software', 'POS software', 'tailor management software', 'ERP implementation India', 'Python PostgreSQL', 'Spherotix case study'],
     },
   },
 ]
