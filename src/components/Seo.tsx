@@ -8,6 +8,8 @@ interface SeoProps {
   image?: string
   type?: 'website' | 'article'
   noindex?: boolean
+  /** Comma-separated keywords meta (falls back to the site-wide defaults). */
+  keywords?: string[]
   /** Extra JSON-LD objects (Article, Service, ...). A BreadcrumbList is added from `breadcrumbs`. */
   jsonLd?: object[]
   breadcrumbs?: Array<{ label: string; to?: string }>
@@ -34,9 +36,12 @@ function upsertLink(rel: string, href: string) {
 }
 
 /** Per-page title, meta tags, canonical URL and JSON-LD (no extra dependency needed). */
-export function Seo({ title, description, path = '/', image = DEFAULT_OG_IMAGE, type = 'website', noindex, jsonLd = [], breadcrumbs }: SeoProps) {
+const defaultKeywords = typeof document === 'undefined' ? '' : (document.head.querySelector<HTMLMetaElement>('meta[name="keywords"]')?.content ?? '')
+
+export function Seo({ title, description, path = '/', image = DEFAULT_OG_IMAGE, type = 'website', noindex, keywords, jsonLd = [], breadcrumbs }: SeoProps) {
   const serialized = JSON.stringify(jsonLd)
   const crumbs = JSON.stringify(breadcrumbs ?? null)
+  const kw = keywords?.join(', ') ?? defaultKeywords
 
   useEffect(() => {
     const fullTitle = title.includes(SITE_NAME) ? title : `${title} | ${SITE_NAME}`
@@ -45,6 +50,7 @@ export function Seo({ title, description, path = '/', image = DEFAULT_OG_IMAGE, 
 
     document.title = fullTitle
     upsertMeta('name', 'description', description)
+    if (kw) upsertMeta('name', 'keywords', kw)
     upsertMeta('name', 'robots', noindex ? 'noindex, nofollow' : 'index, follow')
     upsertLink('canonical', url)
     upsertMeta('property', 'og:title', fullTitle)
@@ -76,7 +82,7 @@ export function Seo({ title, description, path = '/', image = DEFAULT_OG_IMAGE, 
     script.textContent = JSON.stringify(items.length === 1 ? items[0] : items)
     if (items.length) document.head.appendChild(script)
     return () => script.remove()
-  }, [title, description, path, image, type, noindex, serialized, crumbs])
+  }, [title, description, path, image, type, noindex, kw, serialized, crumbs])
 
   return null
 }

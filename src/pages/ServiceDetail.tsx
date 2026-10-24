@@ -37,6 +37,7 @@ export default function ServiceDetail() {
       <Seo
         title={`${s.title} Services`}
         description={`${s.tagline} ${s.intro[0]}`.slice(0, 158)}
+        keywords={[s.title, ...s.tools.slice(0, 6), `${s.title} company`, `${s.title} services`, "Spherotix"]}
         path={routes.service(s.slug)}
         image={`/logo.png`}
         breadcrumbs={crumbs}

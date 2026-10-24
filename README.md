@@ -64,3 +64,15 @@ nav dropdown, footer link and sitemap entry appear automatically.
 It is a single-page app, so the host must serve `index.html` for unknown paths. Included:
 `public/_redirects` (Netlify / Cloudflare Pages) and `vercel.json` (Vercel). `public/sitemap.xml` and
 `public/robots.txt` are regenerated on every build by `scripts/generate-sitemap.mjs`.
+
+## Case studies & project images
+
+Real case studies live in `src/data/projects.ts` (including per-project `seo.title`, `seo.description`, `seo.keywords`).
+To add a poster, drop a WebP in `public/projects/`, set `cover` (and `ogImage`, a 1200×675 JPG) on the project —
+projects without a `cover` show a branded gradient placeholder.
+
+## Apache / cPanel hosting
+
+`public/.htaccess` is copied into `dist/` on build. It forces HTTPS and the `www` host, rewrites unknown paths to
+`index.html` (SPA routing), blocks dotfiles, and sets compression, caching and security headers.
+Change `spherotix.com` inside it if your domain differs.

@@ -21,6 +21,7 @@ export default function Blog() {
       <Seo
         title="Blog — Insights on Web, Design, Apps & Marketing"
         description="Practical articles from the Spherotix team on web development, app development, design, SEO and growing a business online."
+        keywords={["web development blog","app development guides","UX design tips","SEO basics","digital marketing insights","Spherotix blog"]}
         path={routes.blog}
         breadcrumbs={crumbs}
       />

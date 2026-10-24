@@ -16,13 +16,16 @@
     />
     <meta
       name="keywords"
-      content="web development company, mobile app development, CMS development, graphic design, logo design, UI UX design, digital marketing, SEO, Spherotix"
+      content="web development company, mobile app development, CMS development, graphic design, UI UX design, digital marketing, software development agency India, Spherotix"
     />
     <meta name="author" content="Spherotix" />
+    <meta name="application-name" content="Spherotix" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
     <meta name="theme-color" content="#1f6bff" />
     <link rel="canonical" href="https://www.spherotix.com/" />
 
     <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_IN" />
     <meta property="og:site_name" content="Spherotix" />
     <meta property="og:title" content="Spherotix | Technology without limits" />
     <meta
@@ -30,39 +33,86 @@
       content="Websites, mobile apps, CMS, graphic design, UI/UX and marketing — technology without limits."
     />
     <meta property="og:image" content="https://www.spherotix.com/logo.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Spherotix — Technology without limits" />
     <meta property="og:url" content="https://www.spherotix.com/" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Spherotix | Technology without limits" />
+    <meta
+      name="twitter:description"
+      content="Websites, mobile apps, CMS, graphic design, UI/UX and marketing — technology without limits."
+    />
+    <meta name="twitter:image" content="https://www.spherotix.com/logo.png" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Nanum+Pen+Script&display=swap"
       rel="stylesheet"
     />
 
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "name": "Spherotix",
-        "url": "https://www.spherotix.com/",
-        "logo": "https://www.spherotix.com/logo.png",
-        "description": "Full-service digital agency: web, app, CMS, graphic design, UI/UX and marketing.",
-        "areaServed": "Worldwide",
-        "serviceType": [
-          "Web Development",
-          "Mobile App Development",
-          "CMS Development",
-          "Graphic Design",
-          "Search Engine Optimization",
-          "UI/UX Design",
-          "Digital Marketing"
-        ]
-      }
+      [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://www.spherotix.com/#organization",
+          "name": "Spherotix",
+          "slogan": "Technology without limits",
+          "url": "https://www.spherotix.com/",
+          "logo": "https://www.spherotix.com/logo-full.png",
+          "image": "https://www.spherotix.com/logo.png",
+          "email": "hello@spherotix.com",
+          "description": "Full-service digital agency: web, app, CMS, graphic design, UI/UX and marketing."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://www.spherotix.com/#website",
+          "url": "https://www.spherotix.com/",
+          "name": "Spherotix",
+          "publisher": { "@id": "https://www.spherotix.com/#organization" },
+          "inLanguage": "en"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ProfessionalService",
+          "name": "Spherotix",
+          "url": "https://www.spherotix.com/",
+          "image": "https://www.spherotix.com/logo.png",
+          "areaServed": "Worldwide",
+          "serviceType": [
+            "Web Development",
+            "Mobile App Development",
+            "CMS Development",
+            "Graphic Design",
+            "UI/UX Design",
+            "Digital Marketing"
+          ]
+        }
+      ]
     </script>
   </head>
   <body>
     <div id="root"></div>
+    <noscript>
+      <main style="max-width: 720px; margin: 4rem auto; padding: 0 1.25rem; font-family: sans-serif; line-height: 1.6">
+        <h1>Spherotix — Technology without limits</h1>
+        <p>
+          Spherotix is a full-service digital agency offering web development, mobile app development, CMS
+          development, graphic design, UI/UX design and digital marketing.
+        </p>
+        <p>Please enable JavaScript to view this website.</p>
+        <ul>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/portfolio">Portfolio &amp; case studies</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/contact">Contact us</a></li>
+        </ul>
+      </main>
+    </noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

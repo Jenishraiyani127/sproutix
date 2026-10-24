@@ -16,6 +16,7 @@ export default function Home() {
       <Seo
         title="Spherotix | Web, App, CMS, Graphic Design, UI/UX & Digital Marketing"
         description="Spherotix is a full-service digital agency — web development, mobile apps, CMS, graphic design, UI/UX and digital marketing — taking your idea from first sketch to real growth."
+        keywords={["web development company","mobile app development","CMS development","graphic design","UI UX design","digital marketing","software development agency India","Spherotix"]}
         path="/"
       />
       <Hero />

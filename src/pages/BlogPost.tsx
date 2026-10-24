@@ -110,6 +110,7 @@ export default function BlogPost() {
         description={p.excerpt}
         path={routes.post(p.slug)}
         image={unsplash(p.cover, 1200, 630)}
+        keywords={[p.title, `${p.category} insights`, `${p.category.toLowerCase()} tips`, "Spherotix blog"]}
         type="article"
         breadcrumbs={crumbs}
         jsonLd={[

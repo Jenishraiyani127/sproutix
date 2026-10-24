@@ -302,7 +302,7 @@ function Clients() {
   return (
     <div className="mt-14">
       <p className="text-center text-xs font-semibold tracking-[0.2em] text-navy-400 uppercase">
-        Trusted by growing brands across industries
+        Recent platforms we have built
       </p>
       <div className="mt-6 overflow-hidden [mask-image:linear-gradient(to_right,transparent,#000_12%,#000_88%,transparent)]">
         <div className="flex w-max animate-marquee gap-16 pr-16">

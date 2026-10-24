@@ -105,6 +105,7 @@ export default function Careers() {
       <Seo
         title="Careers — Join the Spherotix Team"
         description="Join Spherotix. We're hiring developers, designers and marketers who care about craft, honesty and helping clients grow."
+        keywords={["careers at Spherotix","React developer jobs","Flutter developer jobs","UI UX designer jobs","software company hiring"]}
         path={routes.careers}
         breadcrumbs={crumbs}
         jsonLd={openings.map((o) => ({

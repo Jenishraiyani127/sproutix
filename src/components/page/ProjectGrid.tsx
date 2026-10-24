@@ -3,8 +3,6 @@ import { useState } from 'react'
 import { projects as allProjects, type Project, type WorkCategory } from '../../data/projects'
 import { ProjectCard } from './ProjectCard'
 
-const filters: Array<'All' | WorkCategory> = ['All', 'Web', 'App', 'CMS', 'Design', 'UI/UX', 'Marketing']
-
 interface ProjectGridProps {
   /** Show the category filter tabs. */
   filterable?: boolean
@@ -14,12 +12,13 @@ interface ProjectGridProps {
 }
 
 export function ProjectGrid({ filterable = true, projects = allProjects, columns = 3 }: ProjectGridProps) {
+  const filters: Array<'All' | WorkCategory> = ['All', ...new Set(projects.map((p) => p.category))]
   const [active, setActive] = useState<'All' | WorkCategory>('All')
   const visible = projects.filter((p) => active === 'All' || p.category === active)
 
   return (
     <div>
-      {filterable && (
+      {filterable && filters.length > 2 && (
         <div className="flex flex-wrap justify-center gap-2" role="tablist" aria-label="Filter projects">
           {filters.map((f) => (
             <button

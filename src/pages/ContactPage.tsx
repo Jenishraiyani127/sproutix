@@ -43,6 +43,7 @@ export default function ContactPage() {
       <Seo
         title="Contact Us — Start Your Project"
         description="Get in touch with Spherotix. Tell us about your website, app, design or marketing project and receive a free consultation and quote within one business day."
+        keywords={["contact Spherotix","get a quote web development","hire app developers","free consultation software development"]}
         path={routes.contact}
         breadcrumbs={crumbs}
         jsonLd={[

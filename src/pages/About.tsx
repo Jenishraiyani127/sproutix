@@ -22,6 +22,7 @@ export default function AboutPage() {
       <Seo
         title="About Us"
         description="Meet Spherotix — a team of designers, engineers and marketers helping ambitious brands grow with websites, apps, CMS, design and marketing."
+        keywords={["about Spherotix","software development agency","web and app development team","technology without limits","digital agency India"]}
         path={routes.about}
         breadcrumbs={crumbs}
       />

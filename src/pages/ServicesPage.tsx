@@ -22,6 +22,7 @@ export default function ServicesPage() {
       <Seo
         title="Services — Web, App, CMS, Design, UI/UX & Marketing"
         description="Explore Spherotix services: web development, mobile apps, CMS, graphic design, UI/UX design and digital marketing — everything you need to build and grow online."
+        keywords={["web development services","mobile app development services","CMS development","graphic design services","UI UX design services","digital marketing services","Spherotix services"]}
         path={routes.services}
         breadcrumbs={crumbs}
         jsonLd={[

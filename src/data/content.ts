@@ -1,26 +1,20 @@
 import type { IconType } from 'react-icons'
 import {
-  LuBuilding2,
   LuCode,
   LuGem,
-  LuGraduationCap,
   LuHeartHandshake,
-  LuHeartPulse,
   LuLayers,
-  LuLeaf,
   LuMegaphone,
   LuMousePointerClick,
   LuPalette,
   LuPenTool,
-  LuPlane,
   LuSearch,
-  LuShoppingBag,
   LuSmartphone,
   LuSparkles,
   LuRocket,
-  LuTruck,
 } from 'react-icons/lu'
 import { photos } from '../lib/img'
+import { projects } from './projects'
 
 /* NOTE: Contact details, clients and testimonials below are sample content.
    Replace them with real company information before going live. */
@@ -33,16 +27,8 @@ export const company = {
   hours: 'Mon – Sat, 10:00 – 19:00 IST',
 }
 
-export const clients: Array<{ name: string; icon: IconType }> = [
-  { name: 'FreshCart', icon: LuShoppingBag },
-  { name: 'Aurum', icon: LuGem },
-  { name: 'MedCare', icon: LuHeartPulse },
-  { name: 'LogiTrack', icon: LuTruck },
-  { name: 'Bloom', icon: LuLeaf },
-  { name: 'EduPath', icon: LuGraduationCap },
-  { name: 'Nexora', icon: LuBuilding2 },
-  { name: 'Voyago', icon: LuPlane },
-]
+/** Logo strip under the hero: our real projects. */
+export const clients: Array<{ name: string; icon: IconType }> = projects.map((p) => ({ name: p.title, icon: p.icon }))
 
 /** Interactive hero: "Ideas that scale into {word}" — one entry per core service. */
 export interface HeroService {
