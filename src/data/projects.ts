@@ -194,7 +194,7 @@ export const projects: Project[] = [
     services: ['web-development', 'ui-ux-design'],
     tech: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js', 'Sequelize ORM', 'MySQL'],
     icon: LuStethoscope,
-    accent: ['#0aaed8', '#1f6bff'],
+    accent: ['#4a2bf0', '#a12fd0'],
     overview: [
       'The Clinic Management System is a digital platform that streamlines daily clinic operations — from appointment booking to consultation, prescriptions, vaccination follow-ups and payment collection.',
       'Administrators, doctors and clinic staff each get a dedicated workspace. Patients book appointments, staff manage registration and vital signs, doctors review history and record diagnoses, and administrators monitor performance and financial reports. A multi-dose vaccination workflow sends email reminders before upcoming doses.',
@@ -280,7 +280,7 @@ export const projects: Project[] = [
     services: ['mobile-app-development'],
     tech: ['Flutter', 'Node.js', 'TypeScript', 'Sequelize ORM', 'MySQL'],
     icon: LuBuilding2,
-    accent: ['#5b4bf2', '#9333ea'],
+    accent: ['#a12fd0', '#ff5a45'],
     overview: [
       'MySociety is a residential society management platform that digitises visitor entry, resident approvals, security operations, maintenance reminders and community communication.',
       'Administrators create societies, manage blocks and flats and approve new residents. Security guards register visitors at the gate and send live approval requests to flat members. Residents manage pre-approved visitors, submit complaints, view announcements and receive maintenance reminders.',
@@ -367,7 +367,7 @@ export const projects: Project[] = [
     services: ['web-development', 'mobile-app-development', 'ui-ux-design'],
     tech: ['React', 'TypeScript', 'Flutter', 'AI integration'],
     icon: LuHouse,
-    accent: ['#1f6bff', '#9333ea'],
+    accent: ['#ff5a45', '#4a2bf0'],
     overview: [
       'TASCO brings property seekers, property owners and the internal real estate team into one connected platform. Customers browse homes for sale or rent, explore real estate projects, submit inquiries and list their own properties.',
       'A web platform and Flutter mobile app serve customers, a React + TypeScript admin panel serves the TASCO team, and an AI-powered chat helps users find properties by describing what they need.',

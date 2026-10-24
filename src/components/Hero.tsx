@@ -6,7 +6,7 @@ import { avatar, photos, unsplash } from '../lib/img'
 import { ease } from '../lib/motion'
 import { Button } from './ui'
 
-const GRADIENT = 'linear-gradient(100deg, #1f6bff 0%, #5b4bf2 55%, #9333ea 100%)'
+const GRADIENT = 'linear-gradient(100deg, #ff5a45 0%, #a12fd0 55%, #4a2bf0 100%)'
 const pillClass =
   'hidden shrink-0 overflow-hidden rounded-full shadow-lift ring-[0.08em] ring-white sm:inline-block'
 
@@ -127,9 +127,9 @@ function Sparkline({ id }: { id: string }) {
     <svg viewBox="0 0 120 40" className="h-9 w-24" fill="none" aria-hidden="true">
       <defs>
         <linearGradient id="spark" x1="0" x2="1">
-          <stop stopColor="#1f6bff" />
-          <stop offset=".6" stopColor="#5b4bf2" />
-          <stop offset="1" stopColor="#9333ea" />
+          <stop stopColor="#ff5a45" />
+          <stop offset=".6" stopColor="#a12fd0" />
+          <stop offset="1" stopColor="#4a2bf0" />
         </linearGradient>
       </defs>
       <motion.path

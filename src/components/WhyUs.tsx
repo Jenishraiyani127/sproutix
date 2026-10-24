@@ -8,7 +8,7 @@ const sentence =
   'We are a full-service digital agency that designs, builds and grows websites, mobile apps, CMS platforms and brands for startups and ambitious businesses.'
 
 function Word({ word, progress, range }: { word: string; progress: MotionValue<number>; range: [number, number] }) {
-  const color = useTransform(progress, range, ['#9fb0cc', '#0b1033'])
+  const color = useTransform(progress, range, ['#9fb0cc', '#0b0a24'])
   return <motion.span style={{ color }}>{word}</motion.span>
 }
 

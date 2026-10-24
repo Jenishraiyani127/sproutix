@@ -22,8 +22,10 @@ import { projects } from './projects'
 export const company = {
   name: 'Spherotix',
   email: 'hello@spherotix.com',
-  phone: '+91 00000 00000',
-  address: 'India · Serving clients worldwide',
+  phone: '+91 95129 31212',
+  address:
+    '212, Shlok Infinity, Near Gota Railway Bridge, Opposite Vishwakarma Mandir, Chandlodiya Road, Gota, Ahmedabad - 382481, Gujarat, India',
+  city: 'Ahmedabad, Gujarat',
   hours: 'Mon – Sat, 10:00 – 19:00 IST',
 }
 

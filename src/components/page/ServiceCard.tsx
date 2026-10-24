@@ -32,7 +32,7 @@ export function ServiceCard({ service: s }: { service: ServiceDetail }) {
               loading="lazy"
               className="absolute inset-0 h-full w-full object-cover opacity-25 mix-blend-luminosity transition-transform duration-[1200ms] ease-out group-hover:scale-110"
             />
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_40%,rgb(34_200_240/0.35),transparent_65%)]" />
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_40%,rgb(161_47_208/0.35),transparent_65%)]" />
             <div className="absolute inset-0 bg-gradient-to-b from-navy-950/20 via-transparent to-navy-950" />
           </>
         )}

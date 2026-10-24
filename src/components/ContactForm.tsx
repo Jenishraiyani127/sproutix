@@ -61,7 +61,7 @@ export function ContactForm({ defaultService }: ContactFormProps) {
 
       <label className="mt-4 block text-sm font-semibold text-navy-800">
         Phone <span className="font-normal text-navy-400">(optional)</span>
-        <input name="phone" type="tel" autoComplete="tel" placeholder="+91 00000 00000" className={`${inputClass} mt-1.5`} />
+        <input name="phone" type="tel" autoComplete="tel" placeholder="+91 95129 31212" className={`${inputClass} mt-1.5`} />
       </label>
 
       {/* honeypot */}

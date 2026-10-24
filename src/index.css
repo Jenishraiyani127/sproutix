@@ -6,48 +6,48 @@
   --font-display: 'Montserrat', ui-sans-serif, system-ui, sans-serif;
   --font-sans: 'Montserrat', ui-sans-serif, system-ui, sans-serif;
 
-  --color-navy-50: #f3f5fc;
-  --color-navy-100: #e1e6f6;
-  --color-navy-200: #c3ccea;
-  --color-navy-300: #98a4d0;
-  --color-navy-400: #6877b0;
-  --color-navy-500: #46558f;
-  --color-navy-600: #343f73;
-  --color-navy-700: #232c5c;
-  --color-navy-800: #151c45;
-  --color-navy-900: #0b1033;
-  --color-navy-950: #060a24;
+  --color-navy-50: #f5f4fc;
+  --color-navy-100: #e6e4f5;
+  --color-navy-200: #cbc8e6;
+  --color-navy-300: #a09cc9;
+  --color-navy-400: #7771ab;
+  --color-navy-500: #54508a;
+  --color-navy-600: #3b3869;
+  --color-navy-700: #28264f;
+  --color-navy-800: #181639;
+  --color-navy-900: #0b0a24;
+  --color-navy-950: #060518;
 
-  --color-azure-50: #eef4ff;
-  --color-azure-100: #dbe7ff;
-  --color-azure-200: #bcd2ff;
-  --color-azure-300: #8fb2ff;
-  --color-azure-400: #5a8cff;
-  --color-azure-500: #3472ff;
-  --color-azure-600: #1f6bff;
-  --color-azure-700: #1a52cc;
-  --color-azure-800: #183fa0;
+  --color-azure-50: #f1efff;
+  --color-azure-100: #e2deff;
+  --color-azure-200: #c8c0ff;
+  --color-azure-300: #a79bff;
+  --color-azure-400: #8070ff;
+  --color-azure-500: #6144ff;
+  --color-azure-600: #4a2bf0;
+  --color-azure-700: #3a1fc4;
+  --color-azure-800: #2d1a96;
 
-  --color-teal-50: #ecfcff;
-  --color-teal-100: #cdf6fe;
-  --color-teal-200: #9cecfd;
-  --color-teal-300: #5fdcf9;
-  --color-teal-400: #22c8f0;
-  --color-teal-500: #0aaed8;
-  --color-teal-600: #098ab0;
-  --color-teal-700: #0c6f8c;
+  --color-teal-50: #fff1ee;
+  --color-teal-100: #ffdcd5;
+  --color-teal-200: #ffbaad;
+  --color-teal-300: #ff927f;
+  --color-teal-400: #ff6b57;
+  --color-teal-500: #f2483a;
+  --color-teal-600: #d4332a;
+  --color-teal-700: #a8271f;
 
-  --color-leaf-50: #f6f0ff;
-  --color-leaf-100: #ebdcff;
-  --color-leaf-200: #d9bfff;
-  --color-leaf-300: #c196ff;
-  --color-leaf-400: #a763fa;
-  --color-leaf-500: #8d3cf0;
-  --color-leaf-600: #7626d6;
+  --color-leaf-50: #faf0ff;
+  --color-leaf-100: #f1dcff;
+  --color-leaf-200: #e3bcff;
+  --color-leaf-300: #d093f8;
+  --color-leaf-400: #b866ee;
+  --color-leaf-500: #9d3fd9;
+  --color-leaf-600: #8228b8;
 
-  --shadow-soft: 0 1px 2px rgb(11 16 51 / 0.04), 0 8px 24px -8px rgb(11 16 51 / 0.1);
-  --shadow-lift: 0 2px 4px rgb(11 16 51 / 0.04), 0 24px 48px -16px rgb(31 107 255 / 0.25);
-  --shadow-glow: 0 10px 30px -8px rgb(31 107 255 / 0.55);
+  --shadow-soft: 0 1px 2px rgb(11 10 36 / 0.04), 0 8px 24px -8px rgb(11 10 36 / 0.1);
+  --shadow-lift: 0 2px 4px rgb(11 10 36 / 0.04), 0 24px 48px -16px rgb(74 43 240 / 0.25);
+  --shadow-glow: 0 10px 30px -8px rgb(74 43 240 / 0.55);
 
   --animate-float: float 7s ease-in-out infinite;
   --animate-float-slow: float 10s ease-in-out infinite;
@@ -96,18 +96,18 @@
 
 @layer utilities {
   .text-gradient {
-    background-image: linear-gradient(100deg, #1f6bff 0%, #5b4bf2 55%, #9333ea 100%);
+    background-image: linear-gradient(100deg, #ff5a45 0%, #a12fd0 55%, #4a2bf0 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
   }
   .bg-brand-gradient {
-    background-image: linear-gradient(120deg, #1f6bff 0%, #5b4bf2 60%, #9333ea 110%);
+    background-image: linear-gradient(120deg, #ff5a45 0%, #a12fd0 55%, #4a2bf0 100%);
   }
   .bg-grid {
     background-image:
-      linear-gradient(to right, rgb(31 107 255 / 0.06) 1px, transparent 1px),
-      linear-gradient(to bottom, rgb(31 107 255 / 0.06) 1px, transparent 1px);
+      linear-gradient(to right, rgb(74 43 240 / 0.06) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(74 43 240 / 0.06) 1px, transparent 1px);
     background-size: 44px 44px;
     mask-image: radial-gradient(ellipse 70% 60% at 50% 30%, #000 30%, transparent 75%);
   }

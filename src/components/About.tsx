@@ -120,7 +120,7 @@ function PagePreview() {
             cy="22"
             r="18"
             fill="none"
-            stroke="#9333ea"
+            stroke="#4a2bf0"
             strokeWidth="4"
             strokeLinecap="round"
             initial={{ pathLength: 0 }}
@@ -140,8 +140,8 @@ function Sparkline() {
     <svg viewBox="0 0 110 34" className="h-9 w-16 shrink-0" fill="none" aria-hidden="true">
       <defs>
         <linearGradient id="about-spark" x1="0" x2="1">
-          <stop stopColor="#1f6bff" />
-          <stop offset="1" stopColor="#9333ea" />
+          <stop stopColor="#ff5a45" />
+          <stop offset="1" stopColor="#4a2bf0" />
         </linearGradient>
       </defs>
       <motion.path

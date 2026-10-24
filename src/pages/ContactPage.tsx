@@ -34,7 +34,12 @@ export default function ContactPage() {
   const cards = [
     { icon: LuMail, label: 'Email us', value: company.email, href: `mailto:${company.email}` },
     { icon: LuPhone, label: 'Call us', value: company.phone, href: `tel:${company.phone.replace(/\s/g, '')}` },
-    { icon: LuMapPin, label: 'Location', value: company.address },
+    {
+      icon: LuMapPin,
+      label: 'Visit our office',
+      value: company.address,
+      href: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(company.address)}`,
+    },
     { icon: LuClock, label: 'Working hours', value: company.hours },
   ]
 

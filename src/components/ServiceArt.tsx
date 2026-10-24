@@ -5,7 +5,7 @@ import { tintColors } from '../lib/tints'
 
 const grey = '#9aa6bd'
 const ink = '#596070'
-const brand = '#1f6bff'
+const brand = '#ff5a45'
 
 /** Hover-tilting wrapper shared by all illustrations (group = the service card). */
 function Stage({ children }: { children: ReactNode }) {
@@ -140,7 +140,7 @@ function Marketing({ t }: { t: string }) {
         ))}
         <motion.path
           d="M92 176 C140 170 150 130 190 138 S250 92 316 78"
-          stroke="#5b4bf2"
+          stroke="#a12fd0"
           strokeWidth="5"
           strokeLinecap="round"
           fill="none"
@@ -149,7 +149,7 @@ function Marketing({ t }: { t: string }) {
           viewport={{ once: true }}
           transition={{ duration: 1.6, delay: 0.3 }}
         />
-        <circle cx="316" cy="78" r="9" fill="#9333ea" stroke="#fff" strokeWidth="4" />
+        <circle cx="316" cy="78" r="9" fill="#4a2bf0" stroke="#fff" strokeWidth="4" />
       </g>
     </Stage>
   )
