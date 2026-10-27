@@ -11,6 +11,7 @@ import { TechChips } from '../components/page/TechChips'
 import { SITE_URL } from '../data/site'
 import { getProject, projects } from '../data/projects'
 import { getService } from '../data/services'
+import { unsplash } from '../lib/img'
 import { routes } from '../lib/routes'
 import NotFound from './NotFound'
 
@@ -34,7 +35,7 @@ export default function CaseStudy() {
         description={p.seo.description}
         keywords={p.seo.keywords}
         path={routes.project(p.slug)}
-        image={p.ogImage}
+        image={p.ogImage ?? (p.photo ? unsplash(p.photo, 1200, 630) : undefined)}
         type="article"
         breadcrumbs={crumbs}
         jsonLd={[

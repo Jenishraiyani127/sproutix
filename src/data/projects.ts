@@ -20,6 +20,8 @@ export interface Project {
   tech: string[]
   /** Poster image in /public. Projects without one render a branded placeholder. */
   cover?: string
+  /** Unsplash photo id used when there is no poster (swap for real screenshots later). */
+  photo?: string
   /** 1200×675 JPG for social sharing. */
   ogImage?: string
   icon: IconType
@@ -193,6 +195,7 @@ export const projects: Project[] = [
     tags: ['Healthcare', 'Role-based access', 'Automation'],
     services: ['web-development', 'ui-ux-design'],
     tech: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js', 'Sequelize ORM', 'MySQL'],
+    photo: '1631217868264-e5b90bb7e133',
     icon: LuStethoscope,
     accent: ['#4a2bf0', '#a12fd0'],
     overview: [
@@ -279,6 +282,7 @@ export const projects: Project[] = [
     tags: ['Flutter', 'Society management', 'Security'],
     services: ['mobile-app-development'],
     tech: ['Flutter', 'Node.js', 'TypeScript', 'Sequelize ORM', 'MySQL'],
+    photo: '1545324418-cc1a3fa10c00',
     icon: LuBuilding2,
     accent: ['#a12fd0', '#ff5a45'],
     overview: [
@@ -366,6 +370,7 @@ export const projects: Project[] = [
     tags: ['Marketplace', 'AI Chat', 'Flutter'],
     services: ['web-development', 'mobile-app-development', 'ui-ux-design'],
     tech: ['React', 'TypeScript', 'Flutter', 'AI integration'],
+    photo: '1560518883-ce09059eeffa',
     icon: LuHouse,
     accent: ['#ff5a45', '#4a2bf0'],
     overview: [
@@ -430,6 +435,7 @@ export const projects: Project[] = [
     tags: ['Odoo', 'ERP', 'POS'],
     services: ['web-development'],
     tech: ['Odoo ERP', 'Python', 'PostgreSQL', 'XML views', 'HTML', 'CSS', 'JavaScript', 'OWL'],
+    photo: '1586528116311-ad8dd3c8310d',
     icon: LuBriefcase,
     accent: ['#a12fd0', '#4a2bf0'],
     overview: [

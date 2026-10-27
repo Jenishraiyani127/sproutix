@@ -35,7 +35,7 @@ export function TechStack() {
           description={`${totalTechnologies}+ languages, frameworks and tools — chosen for performance, security and long-term maintainability.`}
         />
 
-        <div className="mt-12 grid gap-6 lg:grid-cols-[17rem_1fr] lg:gap-8">
+        <div className="mt-12 grid grid-cols-[minmax(0,1fr)] gap-6 lg:grid-cols-[17rem_minmax(0,1fr)] lg:gap-8">
           {/* category tabs */}
           <Reveal>
             <div
